@@ -10,6 +10,21 @@
 </head>
 <h1>Header</h1>
 <body>
+<?php if(current_user()) : ?>
+    <p>You are logged in as <?= current_user()->name ?></p>
+    <a href="<?= site_url('/tasks') ?>">Tasks</a>
+    <a href="<?= site_url('/logout') ?>">
+        Log out
+    </a>
+<?php else : ?>
+    <a href="<?= site_url('/signup') ?>">
+        Create account
+    </a>
+
+    <a href="<?= site_url('/login') ?>">
+        Log in
+    </a>
+<?php endif ?>
 <!-- Flashdata is a session that will only be available for one request and if there is any u can show the message -->
 <?php if(session()->has('warning')): ?>
     <div>

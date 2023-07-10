@@ -7,6 +7,9 @@ class TaskModel extends Model {
     protected $table = 'tasks';
     //Allowed fields are the fields that we want to allow to be inserted into the database and protect against mass assignments
     protected $allowedFields = ['description'];
+
+    // We can set the date format for the created_at and updated_at fields
+    // This will do everything automatically for us
     protected $useTimestamps = true;
 
     protected $returnType = 'App\Entities\Task';

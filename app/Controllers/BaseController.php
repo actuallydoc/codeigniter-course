@@ -36,7 +36,7 @@ abstract class BaseController extends Controller
      * @var array
      */
     // Add the form helper to the BaseController so it is available to all controllers
-    protected $helpers = ['form'];
+    protected $helpers = ['form', 'auth'];
 
     /**
      * Be sure to declare properties for any property fetch you initialized.

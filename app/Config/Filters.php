@@ -21,6 +21,8 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'login'         => \App\Filters\LoginFilter::class,
+        'guest' => \App\Filters\LoginFilter::class,
     ];
 
     /**
@@ -60,5 +62,9 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        // This will run the LoginFilter before any of the functions in the controller are called and the url matches the pattern
+        //'login' => ['before' => ['tasks/*', 'tasks']], // <-- This is the pattern or url that will trigger the filter method 1
+        'login' => ['before' => ['tasks(/*)?']], // <-- This is the pattern or url that will trigger the filter method 2 this is regex
+    ];
 }

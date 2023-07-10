@@ -23,8 +23,9 @@ class Tasks extends BaseController
     // Get the task from the database with a unique id
     public function show($id) {
         //$model = new \App\Models\TaskModel();
-        $data = $this->model->find($id);
-        return view('Tasks/show', ['task' => $data]);
+        $task = $this->getTaskOr404($id);
+
+        return view('Tasks/show', ['task' => $task]);
     }
     public function new() {
         // Make a new task object to pass to the view so it can be used in the form
@@ -65,10 +66,22 @@ class Tasks extends BaseController
 
     public function edit($id) {
         //$model = new \App\Models\TaskModel();
-        $data = $this->model->find($id);
-        return view('Tasks/edit', ['task' => $data]);
+        //$data = $this->model->find($id); <-- This is the old way i replaced it with the function below
+        $task = $this->getTaskOr404($id);
+        return view('Tasks/edit', ['task' => $task]);
     }
 
+
+    public function delete($id) {
+        $this->getTaskOr404($id);
+        //Check if the request is post if it is then delete the task
+        if($this->request->getMethod() === 'post') {
+            $this->model->delete($id);
+
+            return  redirect()->to('/tasks')->with('info', 'Task deleted successfully');
+        }
+        return view('Tasks/delete', ['id' => $id]);
+    }
     public function update($id) {
         //$model = new \App\Models\TaskModel();
         $task = $this->model->find($id);
@@ -98,4 +111,15 @@ class Tasks extends BaseController
             //dd($result);
                 return redirect()->back()->with('errors', $this->model->errors())->with('warning', 'Invalid data')->withInput();
         } }
+
+
+    private function getTaskOr404 ($id): object|array
+    {
+        $task = $this->model->find($id);
+        if(!$task) {
+            // If the data is not found then we need to throw an error
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Cannot find the task item: ' . $id);
+        }
+        return $task;
+    }
 }

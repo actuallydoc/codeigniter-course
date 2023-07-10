@@ -29,5 +29,8 @@
 <button >
     <a href="<?= site_url("/tasks/edit/". $task->id) ?>">Edit</a>
 </button>
+<button >
+    <a href="<?= site_url("/tasks/delete/". $task->id) ?>">Delete</a>
+</button>
 
 <?= $this->endSection() ?>

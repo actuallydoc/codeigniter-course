@@ -19,14 +19,17 @@ use CodeIgniter\Config\BaseService;
  */
 class Services extends BaseService
 {
-    /*
-     * public static function example($getShared = true)
-     * {
-     *     if ($getShared) {
-     *         return static::getSharedInstance('example');
-     *     }
-     *
-     *     return new \CodeIgniter\Example();
-     * }
-     */
+
+      public static function auth($getShared = true)
+      {
+          // This is so it doesnt initialize the class every time we call it
+          if ($getShared) {
+              return static::getSharedInstance('auth');
+          }
+
+          return new \App\Libraries\Authentication();
+     }
+
+
+
 }
