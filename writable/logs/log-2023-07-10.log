@@ -1,0 +1,475 @@
+CRITICAL - 2023-07-10 14:01:06 --> include(templates/header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Home\index.php on line 1.
+ 1 APPPATH\Views\Home\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Views\Home\index.php(1): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Home\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Home.php(9): view()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:01:15 --> include(templates/Header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Home\index.php on line 1.
+ 1 APPPATH\Views\Home\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Views\Home\index.php(1): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Home\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Home.php(9): view()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:01:16 --> include(templates/Header.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Home\index.php on line 1.
+ 1 APPPATH\Views\Home\index.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Views\Home\index.php(1): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Home\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Home.php(9): view()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:05:29 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:06:57 --> syntax error, unexpected identifier "section", expecting "," or ";"
+in APPPATH\Views\Home\index.php on line 2.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Home.php(9): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:12:09 --> syntax error, unexpected end of file
+in APPPATH\Views\Tasks\index.php on line 15.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Tasks.php(16): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:12:10 --> syntax error, unexpected end of file
+in APPPATH\Views\Tasks\index.php on line 15.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Tasks.php(16): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+ERROR - 2023-07-10 14:23:01 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(745): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(11): CodeIgniter\Database\Forge->addColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->up()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-10 14:25:21 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(27): CodeIgniter\Database\Forge->dropColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->down()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-10 14:25:31 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(27): CodeIgniter\Database\Forge->dropColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->down()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-10 14:25:42 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(27): CodeIgniter\Database\Forge->dropColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->down()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-10 14:25:59 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(27): CodeIgniter\Database\Forge->dropColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->down()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-10 14:26:26 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(27): CodeIgniter\Database\Forge->dropColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->down()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-10 14:26:29 --> mysqli_sql_exception: Table 'taskapp.task' doesn't exist in C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\dev\repos\codeigniter4-course\system\Database\MySQLi\Connection.php(295): mysqli->query()
+#1 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\dev\repos\codeigniter4-course\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\dev\repos\codeigniter4-course\system\Database\Forge.php(771): CodeIgniter\Database\BaseConnection->query()
+#4 C:\dev\repos\codeigniter4-course\app\Database\Migrations\2023-07-10-142144_AddTimestamp.php(27): CodeIgniter\Database\Forge->dropColumn()
+#5 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddTimestamp->down()
+#6 C:\dev\repos\codeigniter4-course\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\dev\repos\codeigniter4-course\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\dev\repos\codeigniter4-course\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\dev\repos\codeigniter4-course\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run()
+#10 C:\dev\repos\codeigniter4-course\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-07-10 14:36:33 --> Undefined array key "name"
+in APPPATH\Views\Tasks\index.php on line 10.
+ 1 APPPATH\Views\Tasks\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Tasks.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:36:34 --> Undefined array key "name"
+in APPPATH\Views\Tasks\index.php on line 10.
+ 1 APPPATH\Views\Tasks\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Tasks\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Tasks.php(15): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:39:41 --> Attempt to read property "description" on array
+in APPPATH\Views\Tasks\show.php on line 8.
+ 1 APPPATH\Views\Tasks\show.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Tasks\\show.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Tasks.php(21): view()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->show()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 14:42:40 --> syntax error, unexpected token "if"
+in APPPATH\Views\Tasks\show.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Tasks.php(21): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+INFO - 2023-07-10 14:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 14:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 15:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 16:09:45 --> Undefined variable $task
+in APPPATH\Views\Tasks\form.php on line 4.
+ 1 APPPATH\Views\Tasks\form.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Tasks\\form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Tasks\new.php(13): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Tasks\\new.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Tasks.php(25): view()
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->new()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+INFO - 2023-07-10 16:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 16:14:23 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, App\Entities\Task given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(154): mysqli_result->fetch_object()
+ 2 SYSTEMPATH\Database\BaseResult.php(159): CodeIgniter\Database\MySQLi\Result->fetchObject()
+ 3 SYSTEMPATH\Database\BaseResult.php(114): CodeIgniter\Database\BaseResult->getCustomResultObject()
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseResult->getResult()
+ 5 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 6 APPPATH\Controllers\Tasks.php(11): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 16:14:57 --> Cannot use object of type App\Entities\Task as array
+in APPPATH\Views\Tasks\index.php on line 13.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Tasks.php(15): view()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+INFO - 2023-07-10 16:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 16:16:28 --> Cannot use object of type App\Entities\Task as array
+in APPPATH\Views\Tasks\show.php on line 10.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Tasks.php(21): view()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->show()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+INFO - 2023-07-10 16:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 16:17:18 --> syntax error, unexpected token ":"
+in APPPATH\Views\Tasks\show.php on line 22.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Tasks.php(21): view()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->show()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+INFO - 2023-07-10 16:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-10 16:17:29 --> Cannot use object of type App\Entities\Task as array
+in APPPATH\Views\Tasks\edit.php on line 8.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 4 APPPATH\Controllers\Tasks.php(56): view()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->edit()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+CRITICAL - 2023-07-10 16:17:50 --> Cannot use object of type App\Entities\Task as array
+in APPPATH\Views\Tasks\form.php on line 4.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render()
+ 4 APPPATH\Views\Tasks\edit.php(9): CodeIgniter\View\View->include()
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\dev\\repos\\codeigniter4-course\\app\\Views\\Tasks\\edit.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Tasks.php(56): view()
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Tasks->edit()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\dev\\repos\\codeigniter4-course\\public\\index.php')
+INFO - 2023-07-10 16:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-10 16:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
